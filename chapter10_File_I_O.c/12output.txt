@@ -1,0 +1,4 @@
+name is sujal
+salary is 45000
+name is sjl
+salary is 89000

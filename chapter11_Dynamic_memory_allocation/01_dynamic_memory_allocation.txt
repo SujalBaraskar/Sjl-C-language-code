@@ -1,0 +1,30 @@
+C is a language with sume fixed rules of programming . For example :changing the
+size of an array is not allowed .
+
+Dynamic Memory Allocation :
+Dynamic memoryallocation is a way to allocate memory to a data structure during the 
+runtime .We can use DMA functions available in C to allocate and free memory during 
+runtime.
+for example: 
+Jaise hum koi array me ek variable likh te hai num[a] aur a ki value hum lete hai
+scanf ke madad se to hum kya kr rahe hai ki memory  hum runtime me use allocate kr 
+rahe hai.
+Pehle se nhi bata rhe hai ki humare array ka size kitna hoga.This is what dynamic 
+memory allocation is.
+
+
+Functions for DMA in C:
+Following functions are available in C to perform Dynamic memory Allocation:
+1. malloc();
+2.calloc();
+3.free();
+4.realloc();
+
+
+1.Malloc() Fuction:
+malloc() stands for memory allocation.It takes number of bytes to be allocated as 
+an input and returns a pointer of type void.
+Syntax:                 |---------------returns size of 1 int
+ ptr=(int*)malloc(30*sizeof(int))
+    |              |____________space for 30ints 
+casting void pointer to int
